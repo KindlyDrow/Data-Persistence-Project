@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void ReturnAllBest(ref TMP_Text text)
+    public void ReturnAllBest(TMP_Text text)
     {
         MyCollection fullData = new MyCollection();
         string path = Application.persistentDataPath + "/bestScore.json";

@@ -28,7 +28,7 @@ public class MenuUIHandler : MonoBehaviour
     public void ShowLB()
     {
         TMP_Text text = leaderBoard.GetComponentInChildren<TMP_Text>();
-        GameManager.Instance.ReturnAllBest(ref text);
+        GameManager.Instance.ReturnAllBest(text);
         leaderBoard.SetActive(!leaderBoard.activeSelf);
     }
 
